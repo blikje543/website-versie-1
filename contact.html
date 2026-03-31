@@ -3,53 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Contact - ICT Loket Noordkade</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                
-            </ul>
-        </nav>
-
-        <h1>Welcome to My Website</h1>
+        <div class="header-container">
+            <div class="logo"><img src="assets/ICT LOCKET.png" alt="ICT Loket Logo" class="logo-image"></div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Contact</h1>
+        <p class="tagline">We staan klaar voor je vragen en opmerkingen</p>
     </header>
 
     <main>
-        <section class="hero" id="home">
-            <img src="assets/ICT LOCKET.png" alt="Hero Image" class="hero-image">
+        <!-- Hero Introduction -->
+        <section class="contact-intro">
+            <h2>Neem Contact Met Ons Op</h2>
+            <p>Heb je een vraag, wil je hulp, of wil je een afspraak maken? We helpen je graag verder. Voel je vrij om ons te bereiken via het contactformulier of de onderstaande contactgegevens.</p>
         </section>
 
-        <section class="content">
-            <h2>Contact</h2>
-            <p>Heb je een vraag of wil je een afspraak maken? Gebruik de contactgegevens of het berichtformulier hieronder.</p>
-            <p><strong>Adres:</strong> Noordkade 123, 5462 AB Veghel</p>
-            <p><strong>Email:</strong> info@ictlocket.nl</p>
-            <p><strong>Telefoon:</strong> 0413-123456</p>
+        <!-- Contact Content -->
+        <section class="contact-content">
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <h3>Bezoekadres</h3>
+                    <p>Noordkade 123</p>
+                    <p>5462 AB Veghel</p>
+                </div>
 
-            <form action="#" method="post" class="contact-form">
-                <label for="name">Naam</label>
-                <input type="text" id="name" name="name" required>
+                <div class="info-card">
+                    <div class="info-icon">📧</div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@ictlocket.nl">info@ictlocket.nl</a></p>
+                </div>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+                <div class="info-card">
+                    <div class="info-icon">📞</div>
+                    <h3>Telefoon</h3>
+                    <p><a href="tel:0413123456">0413-123456</a></p>
+                </div>
 
-                <label for="message">Bericht</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                <div class="info-card">
+                    <div class="info-icon">🕐</div>
+                    <h3>Openingstijden</h3>
+                    <p>Ma - Vr: 09:00 - 17:00</p>
+                    <p>Za - Zo: Gesloten</p>
+                </div>
+            </div>
 
-                <button type="submit">Verstuur bericht</button>
-            </form>
+            <div class="form-container">
+                <h2>Stuur ons een Bericht</h2>
+                <form action="#" method="post" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Volledige Naam *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Adres *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Telefoonnummer</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Onderwerp *</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Bericht *</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Typ hier je bericht..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Verstuur Bericht</button>
+                </form>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 My Website. All rights reserved.</p>
+        <div class="footer-content">
+            <img src="assets/logo_blue_red.png" alt="Footer logo" class="footer-logo">
+            <p>&copy; 2026 ICT Loket Noordkade. Alle rechten voorbehouden.</p>
+        </div>
     </footer>
 </body>
 </html>

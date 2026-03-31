@@ -3,41 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Over Ons - ICT Loket Noordkade</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                
-            </ul>
-        </nav>
-
-        <h1>Welcome to My Website</h1>
+        <div class="header-container">
+            <div class="logo"><img src="assets/ICT LOCKET.png" alt="ICT Loket Logo" class="logo-image"></div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Over Ons</h1>
+        <p class="tagline">Kennismaking met ICT Loket Noordkade</p>
     </header>
 
     <main>
-        <section class="hero" id="home">
-            <img src="assets/ICT LOCKET.png" alt="Hero Image" class="hero-image">
+        <!-- About Introduction -->
+        <section class="about-intro">
+            <div class="about-hero">
+                <h2>Wie Zijn Wij?</h2>
+                <p>ICT Loket Noordkade is een community-initiatief dat zich inzet voor toegankelijke digitale ondersteuning in de regio Veghel. Ons team bestaat uit passionele vrijwilligers, ervaren technische coaches en studenten die geloven in het belang van digitale vaardigheden voor iedereen.</p>
+            </div>
         </section>
 
-        <section class="content">
-            <h2>Over ICT Locket Noordkade</h2>
-            <p>Wij zijn een community-initiatief in Veghel dat iedereen helpt om digitaal vaardig en veilig te worden. Ons team bestaat uit studenten, vrijwilligers en technische coaches.</p>
-            <h3>Missie</h3>
-            <p>Toegankelijke ICT-ondersteuning beschikbaar maken voor iedereen in de regio.</p>
-            <h3>Visie</h3>
-            <p>Een slimme, verbonden community waarin iedereen zelfredzaam is op digitaal gebied.</p>
+        <!-- Mission and Vision -->
+        <section class="mission-vision">
+            <div class="mission-card">
+                <div class="mission-icon">🎯</div>
+                <h3>Onze Missie</h3>
+                <p>Wij bieden toegankelijke, gratis ICT-ondersteuning aan studenten, werkenden en omwonenden in de regio. Ons doel is om digitale vaardigheden te verbeteren, technische problemen op te lossen en iedereen veilig online te laten surfen.</p>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-icon">🌟</div>
+                <h3>Onze Visie</h3>
+                <p>Een slimme, verbonden community waarin iedereen digitaal vaardig, zelfstandig en veilig is. We streven naar een wereld waar technologie geen barrière is, maar juist een kans voor alle generaties.</p>
+            </div>
+        </section>
+
+        <!-- Core Values -->
+        <section class="core-values">
+            <h2>Onze Kernwaarden</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">♦️</div>
+                    <h3>Toegankelijkheid</h3>
+                    <p>Iedereen mag erbij. Geen voorkennis vereist – we helpen graag bij alles van basis tot gevorderd niveau.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">🤝</div>
+                    <h3>Gemeenschap</h3>
+                    <p>Samen zijn we sterker. We geloven in samenwerking en het delen van kennis met elkaar.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">🔒</div>
+                    <h3>Veiligheid</h3>
+                    <p>Privacy en beveiliging staan voorop. We helpen je om veilig en verstandig online te bewegen.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">💡</div>
+                    <h3>Innovatie</h3>
+                    <p>Tech evolueert snel. Wij blijven up-to-date zodat we je altijd het beste advies kunnen geven.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- What We Offer -->
+        <section class="what-we-offer">
+            <h2>Wat Wij Bieden</h2>
+            <div class="offer-grid">
+                <div class="offer-card">
+                    <h3>💻 Technische Ondersteuning</h3>
+                    <p>Hulp met software, hardware, netwerkproblemen en veel meer op locatie of op afstand.</p>
+                </div>
+
+                <div class="offer-card">
+                    <h3>📚 Workshops &amp; Trainingen</h3>
+                    <p>Leer digitale vaardigheden in groepsworkshops en individuele trainingen.</p>
+                </div>
+
+                <div class="offer-card">
+                    <h3>🛡️ Veiligheid &amp; Privacy</h3>
+                    <p>Advies over cybersecurity, phishing en veilig internetgebruik voor al je apparaten.</p>
+                </div>
+
+                <div class="offer-card">
+                    <h3>📱 Apparaat Begeleiding</h3>
+                    <p>Leer je smartphone, tablet of computer beter kennen met persoonlijke begeleiding.</p>
+                </div>
+
+                <div class="offer-card">
+                    <h3>🖨️ Kantoor Ondersteuning</h3>
+                    <p>Hulp met Microsoft Office, Google Workspace en andere zakelijke applicaties.</p>
+                </div>
+
+                <div class="offer-card">
+                    <h3>🌐 Webdesign &amp; Advies</h3>
+                    <p>Begeleiding bij het opzetten van websites en online aanwezigheid voor bedrijven.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="why-choose-us-about">
+            <h2>Waarom Kiezen Voor Ons?</h2>
+            <ul class="why-list">
+                <li>✓ <strong>Gratis ondersteuning</strong> – Niemand betaalt voor onze basisservices</li>
+                <li>✓ <strong>Vriendelijke experts</strong> – Tech jargon wordt duidelijk uitgelegd</li>
+                <li>✓ <strong>Snelle respons</strong> – Korte wachttijden en flexibele afspraken</li>
+                <li>✓ <strong>Persoonlijke aanpak</strong> – Advies op maat voor jouw situatie</li>
+                <li>✓ <strong>Community-driven</strong> – Lokaal ondersteuning door lokale vrijwilligers</li>
+            </ul>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="about-cta">
+            <h2>Klaar Om Ons Te Ontmoeten?</h2>
+            <p>Heb je vragen of wil je hulp? We staan klaar voor je!</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="cta-button">Neem Contact Op</a>
+                <a href="index.html" class="cta-button secondary">Terug naar Home</a>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 My Website. All rights reserved.</p>
+        <div class="footer-content">
+            <img src="assets/logo_blue_red.png" alt="Footer logo" class="footer-logo">
+            <p>&copy; 2026 ICT Loket Noordkade. Alle rechten voorbehouden.</p>
+        </div>
     </footer>
 </body>
 </html>

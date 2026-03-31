@@ -3,49 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>ICT Loket Noordkade - Professionele ICT Ondersteuning</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo"><img src="assets/ICT LOCKET.png" alt="Hero Image" class="hero-image"></div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                
-            </ul>
-        </nav>
-
-        <h1>Welcome to My Website</h1>
+        <div class="header-container">
+            <div class="logo"><img src="assets/ICT LOCKET.png" alt="ICT Loket Logo" class="logo-image"></div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>ICT Loket Noordkade</h1>
+        <p class="tagline">Jouw ICT-partner voor praktische ondersteuning en innovatieve oplossingen</p>
     </header>
 
     <main>
+        <!-- Hero Section -->
         <section class="hero" id="home">
-            <h2>Breng jouw ICT-vraag naar beweging</h2>
-            <p>ICT Locket Noordkade helpt studenten en omwonenden met praktische ondersteuning, advies en workshops.</p>
+            <div class="hero-content">
+                <h2>Welkom bij ICT Loket Noordkade</h2>
+                <p>We helpen studenten en omwonenden met praktische ICT-ondersteuning, advies en workshops. Jouw digitale vragen zijn in goede handen.</p>
+                <a href="contact.html" class="cta-button">Neem Contact Op</a>
+            </div>
         </section>
 
-        <section class="content">
-            <h2>Welkom bij ICT Loket Veghel</h2>
-            <p>Bij ICT Locket Noordkade vind je hulp voor softwareproblemen, digitale vaardigheden en slimme oplossingen voor school en werk.</p>
-            <ul>
-                <li>Gratis hulp &amp; korte doorlooptijden</li>
-                <li>Oplossingen voor beveiliging, privacy en netwerk</li>
-                <li>Persoonlijk advies en leermateriaal</li>
+        <!-- Services Section -->
+        <section class="services">
+            <h2>Onze Diensten</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>💻 Technische Ondersteuning</h3>
+                    <p>Hulp bij softwareproblemen, hardwarekwesties en netwerkproblemen voor school en werk.</p>
+                </div>
+                <div class="service-card">
+                    <h3>📚 Digitale Vaardigheden</h3>
+                    <p>Workshops en trainingen voor het verbeteren van jouw digitale competenties en productiviteit.</p>
+                </div>
+                <div class="service-card">
+                    <h3>🔒 Veiligheid &amp; Privacy</h3>
+                    <p>Advies over beveiliging, privacy en veilig internetgebruik in het digitale landschap.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-us">
+            <h2>Waarom ICT Loket Noordkade?</h2>
+            <ul class="benefits-list">
+                <li>✓ Gratis hulp &amp; korte doorlooptijden</li>
+                <li>✓ Persoonlijk advies op maat</li>
+                <li>✓ Ondersteuning op locatie of op afstand</li>
+                <li>✓ Ervaren en vriendelijke experts</li>
             </ul>
         </section>
 
-        <section class="content">
-            <h2>Onze diensten</h2>
-            <p>Webdesign, onderhoud en ondersteuning op locatie of op afstand.</p>
+        <!-- Team Section -->
+        <section class="team">
+            <h2>Ons Team</h2>
+            <p class="team-intro">Ontmoet de experts achter ICT Loket Noordkade</p>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="assets/janpeter.jpg" alt="Jan Peter" class="team-image">
+                    <h3>Jan Peter</h3>
+                    <p>ICT Specialist</p>
+                </div>
+                <div class="team-member">
+                    <img src="assets/rapper sjors.jpg" alt="Sjors" class="team-image">
+                    <h3>Sjors</h3>
+                    <p>ICT Expert</p>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 My Website. All rights reserved.</p>
+        <div class="footer-content">
+            <img src="assets/logo_blue_red.png" alt="Footer logo" class="footer-logo">
+            <p>&copy; 2026 ICT Loket Noordkade. Alle rechten voorbehouden.</p>
+        </div>
     </footer>
 </body>
 </html>
